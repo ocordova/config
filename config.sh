@@ -90,7 +90,7 @@ printf "%s\n# Adjusting macOS...\n%s" $yellow $end
   # System Preferences > Dock > Automatically hide and show the Dock:
   defaults write com.apple.dock autohide -bool true
   # System Preferences > Dock > Size:
-  defaults write com.apple.dock tilesize -int 36
+  defaults write com.apple.dock tilesize -int 64
   # System Preferences > Mission Control > Automatically rearrange Spaces based on most recent use
   defaults write com.apple.dock mru-spaces -bool false
   # Clear out the dock of default icons
@@ -300,7 +300,7 @@ if [[ ! -e "$bin_dir/stoplight-studio" ]]; then
   printf "%s - Installed!\n%s" $green $end
 else
   printf "%s - Already installed\n%s" $cyan $end
-fiº
+fi
 
 
 # Mini conda

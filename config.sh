@@ -256,6 +256,64 @@ do
   fi
 done
 
+# Insomnia
+printf "%s  - insomnia%s"
+if [[ ! -e "$bin_dir/insomnia" ]]; then
+  {
+    brew install insomnia
+  } &> /dev/null
+  printf "%s - Installed!\n%s" $green $end
+else
+  printf "%s - Already installed\n%s" $cyan $end
+fi
+
+# VS Code
+printf "%s  - vs code%s"
+if [[ ! -e "$bin_dir/visual-studio-code" ]]; then
+  {
+    brew install visual-studio-code
+  } &> /dev/null
+  printf "%s - Installed!\n%s" $green $end
+else
+  printf "%s - Already installed\n%s" $cyan $end
+fi
+
+
+# Hyper
+printf "%s  - hyper%s"
+if [[ ! -e "$bin_dir/hyper" ]]; then
+  {
+    brew install hyper
+  } &> /dev/null
+  printf "%s - Installed!\n%s" $green $end
+else
+  printf "%s - Already installed\n%s" $cyan $end
+fi
+
+
+# Stoplight Studio
+printf "%s  - stoplight-studio%s"
+if [[ ! -e "$bin_dir/stoplight-studio" ]]; then
+  {
+    brew install stoplight-studio
+  } &> /dev/null
+  printf "%s - Installed!\n%s" $green $end
+else
+  printf "%s - Already installed\n%s" $cyan $end
+fiº
+
+
+# Mini conda
+printf "%s  - miniconda%s"
+if [[ ! -e "$bin_dir/miniconda" ]]; then
+  {
+    brew install miniconda
+  } &> /dev/null
+  printf "%s - Installed!\n%s" $green $end
+else
+  printf "%s - Already installed\n%s" $cyan $end
+fi
+
 
 #
 # All done!

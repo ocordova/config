@@ -6,7 +6,7 @@
 
 | File            | Description                                                                         |
 | --------------- | ----------------------------------------------------------------------------------- |
-| `.bash_profile` | Customizes the Terminal.app prompt and echoes the currently checked out Git branch. |
+| `.zshrc`        | Customizes the Terminal                                                             |
 | `.gitconfig`    | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
 
 ## Shell script (WIP)
@@ -30,7 +30,7 @@ Many of the included macOS Terminal customizations are taken from <https://githu
 
 ### 2. Prep Terminal.app
 
-- Load [`.bash_profile`](/.bash_profile)
+- Load [`.zshrc`](/.zshrc)
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
 - Load up the Atom theme from <https://github.com/nathanbuchar/atom-one-dark-terminal>
 
